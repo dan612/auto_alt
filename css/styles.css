@@ -1,0 +1,19 @@
+.form-managed-file__meta-items {
+  position: relative;
+}
+
+#autoalt {
+  position: absolute;
+  top: 46px;
+  right: 3px;
+  padding: 8px;
+  background: 'whitesmoke';
+  transform: translateY(-50%);
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background .2s ease;
+}
+
+#autoalt:hover {
+  background: lightgray;
+}

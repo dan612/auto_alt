@@ -1,0 +1,7 @@
+auto_alt.content:
+  path: '/ai/alt-text-generator'
+  defaults:
+    _controller: '\Drupal\auto_alt\Controller\AltTextGenerator::generate'
+    _title: ''
+  requirements:
+    _permission: 'access content'

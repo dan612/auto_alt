@@ -1,0 +1,12 @@
+<?php
+
+function auto_alt_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id !== 'media_image_edit_form') {
+    return;
+  }
+  $form['auto_alt'] = [
+    '#type' => 'markup',
+    '#markup' => '<span id="autoalt">🪄</span>'
+  ];
+  $form['#attached']['library'][] = 'auto_alt/auto_alt';
+}

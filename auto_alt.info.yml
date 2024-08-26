@@ -1,0 +1,5 @@
+name: Auto Alt
+description: 'AI generated alt text on media items.'
+type: module
+package: Media
+core_version_requirement: ^10 || ^11
