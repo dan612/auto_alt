@@ -1,9 +1,0 @@
-auto_alt:
-  css:
-    theme:
-      css/styles.css: { }
-  js:
-    js/autoAlt.js: { }
-  dependencies:
-    - core/once
-    - core/drupal

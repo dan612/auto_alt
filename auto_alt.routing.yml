@@ -1,7 +1,7 @@
-auto_alt.content:
-  path: '/ai/alt-text-generator'
+auto_alt.settings:
+  path: '/admin/config/media/auto_alt'
   defaults:
-    _controller: '\Drupal\auto_alt\Controller\AltTextGenerator::generate'
-    _title: ''
+    _form: '\Drupal\auto_alt\SettingsForm'
+    _title: 'Auto Alt Text Generate Settings'
   requirements:
-    _permission: 'access content'
+    _permission: 'administer site configuration'
